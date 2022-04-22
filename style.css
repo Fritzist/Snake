@@ -109,7 +109,7 @@ div {
     border-left: solid 15px transparent; 
     border-right: solid 15px transparent; 
     border-bottom: solid 20px #777; 
-  }
+}
   .right-triangle {
     position: absolute;
     bottom: 8px;
@@ -121,7 +121,7 @@ div {
     border-right: solid 15px transparent; 
     border-bottom: solid 20px #777;
     transform: rotate(90deg);
-  }
+}
   
   .down-triangle {
     position: absolute;
@@ -134,7 +134,7 @@ div {
     border-right: solid 15px transparent; 
     border-bottom: solid 20px #777;
     transform: rotate(180deg);
-  }
+}
   
   .left-triangle {
     position: absolute;
@@ -147,7 +147,7 @@ div {
     border-right: solid 15px transparent; 
     border-bottom: solid 20px #777;
     transform: rotate(-90deg);
-  }
+}
 .left:hover {
     background-color: rgb(49, 48, 48);
 }
