@@ -159,3 +159,27 @@
             const tmpDirection = directions[e.keyCode];
             if(tmpDirection) direction = tmpDirection;
             }
+            
+            function pressedUp() {
+
+                direction = "UP"
+
+            }
+
+            function pressedDown() {
+
+                direction = "DOWN"
+
+            }
+
+            function pressedLeft() {
+
+                direction = "LEFT"
+
+            }
+
+            function pressedRight() {
+
+                direction = "RIGHT"
+
+            }

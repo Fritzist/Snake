@@ -14,5 +14,33 @@
     <canvas id="canvas" width="360" height="360"></canvas>
     <script src="app.js"></script>
     <button id="button-home" onclick="window.location = 'http://fritzist.kotw.cf/';">Homepage</button>
+
+    <div class="wrapper">
+        <div class="center">
+            <div class="center-circle"></div>
+        </div>
+        
+        <div onclick="pressedUp()" class="up direction">
+          <div  class="up-triangle"></div>
+
+        </div>
+      
+        <div onclick="pressedRight()" class="right direction">
+          <div  class="right-triangle"></div>
+
+        </div>
+        <div onclick="pressedDown()" class="down direction">
+          <div  class="down-triangle"></div>
+
+        </div>
+      
+        <div onclick="pressedLeft()" class="left direction">
+          <div  class="left-triangle"></div>
+
+        </div>
+      
+    </div>
+      
+    
 </body>
 </html>

@@ -29,3 +29,137 @@ body{
     color: white;
     border-color: white;
 }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+div {
+  padding: 0;
+  margin: 0;
+  width: 3em;
+  height: 3em;
+  position: absolute;
+}
+
+.wrapper {
+  position: absolute;
+  height: 9em;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* filter: drop-shadow(7px 5px 5px #777); */
+  margin-top: 470px;
+  cursor: pointer;
+}
+
+.center {
+  z-index: 2;
+  top: 3em;
+}
+
+.center-circle {
+  position: static;
+/*   background: #222532; */
+  background: #777;
+/*   background: #90E4FF; */
+/*   background: #7FFFB5; */
+  border-radius: 100%;
+  margin: auto;
+  width: 75%;
+  height: 75%;
+  z-index: 3;
+}
+
+.up,
+.right,
+.down,
+.left,
+.center {
+  display: flex;
+  background: #000;
+  padding: 12px;
+  border: 1px solid #222;
+/*   background: #51D6FF; */
+/*   background: #37FF8B; */
+}
+
+.right {
+  top: 3em;
+  left: 3em;
+}
+
+.left {
+  top: 3em;
+  right: 3em;
+}
+
+.down {
+  top: 6em;
+}
+.up-triangle {
+    position: absolute;
+    bottom: 16px;
+    right: 8px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent; 
+    border-right: solid 15px transparent; 
+    border-bottom: solid 20px #777; 
+  }
+  .right-triangle {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent; 
+    border-right: solid 15px transparent; 
+    border-bottom: solid 20px #777;
+    transform: rotate(90deg);
+  }
+  
+  .down-triangle {
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent; 
+    border-right: solid 15px transparent; 
+    border-bottom: solid 20px #777;
+    transform: rotate(180deg);
+  }
+  
+  .left-triangle {
+    position: absolute;
+    bottom: 8px;
+    left: 1px;
+    margin: auto;
+    width: 65%;
+    height: 65%;
+    border-left: solid 15px transparent; 
+    border-right: solid 15px transparent; 
+    border-bottom: solid 20px #777;
+    transform: rotate(-90deg);
+  }
+.left:hover {
+    background-color: rgb(49, 48, 48);
+}
+.right:hover {
+    background-color: rgb(49, 48, 48);
+}
+.up:hover {
+    background-color: rgb(49, 48, 48);
+}
+.down:hover {
+    background-color: rgb(49, 48, 48);
+}
+.center:hover {
+    background-color: rgb(49, 48, 48);
+}
